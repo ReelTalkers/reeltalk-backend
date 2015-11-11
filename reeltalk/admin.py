@@ -5,10 +5,12 @@ from django.core.exceptions import ValidationError
 
 from .models import (
     Show,
-    Review
+    Review,
+    User,
+    Group
 )
 
-classes = [Show, Review]
+classes = [Show, Review, User, Group]
 
 
 class ModelAdmin(admin.ModelAdmin):
