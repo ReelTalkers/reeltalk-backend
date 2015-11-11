@@ -25,5 +25,12 @@ class Show(DateTimeModel):
 
 class Review(DateTimeModel):
     score = models.PositiveSmallIntegerField()
-    show = models.OneToOneField(Show)
-    user = models.OneToOneField(User)
+    show = models.ForeignKey(Show)
+    user = models.ForeignKey(User)
+
+class Group(DateTimeModel):
+    users = models.ManyToManyField(
+        User,
+        related_name="friend_groups",
+        blank=True
+    )
