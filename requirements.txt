@@ -1,0 +1,6 @@
+-r requirements_base.txt
+
+# The production required packages
+
+gunicorn==19.3.0
+MySQL-python
