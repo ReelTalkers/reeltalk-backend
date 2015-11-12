@@ -10,7 +10,7 @@ from .models import (
     Group
 )
 
-classes = [Show, Review, User, Group]
+classes = [Show, Review, Group]
 
 
 class ModelAdmin(admin.ModelAdmin):

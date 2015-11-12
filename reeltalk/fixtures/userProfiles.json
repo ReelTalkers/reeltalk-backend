@@ -1,0 +1,22 @@
+[
+  {
+    "fields": {
+      "user_id": 1,
+      "picture": "https://pbs.twimg.com/profile_images/3491760112/d10ed92223f7c53a2f6072baf5a6c5a0_400x400.jpeg",
+      "created": "2014-12-12T11:26:24.656Z",
+      "edited": "2014-12-15T13:07:53.386Z"
+    },
+    "pk": 1,
+    "model": "reeltalk.userProfile"
+  },
+  {
+    "fields": {
+      "user_id": 2,
+      "picture": "http://picturesforcoloring.com/wp-content/uploads/2012/04/elmo-picture.gif",
+      "created": "2014-12-12T11:26:23.646Z",
+      "edited": "2014-12-15T13:07:56.396Z"
+    },
+    "pk": 2,
+    "model": "reeltalk.userProfile"
+  }
+]
