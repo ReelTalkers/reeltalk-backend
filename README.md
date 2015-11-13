@@ -8,15 +8,17 @@ Create a clean `virtualenv`, then
 
     python manage.py collectstatic
 
-Create at least two users (temporary). For example:
+You'll get an error running this but that's fine
+
+    python manage.py migrate
+
+Now, create at least two users (temporary). For example:
 
     python manage.py createsuperuser
 
-And finally,
+And finally, run migrate again
 
-    # initialize db and load fixture data
     python manage.py migrate
-
 
 To run the backend:
 
