@@ -41,7 +41,7 @@ class Review(DjangoNode):
 class User(DjangoNode):
     class Meta:
         model = models.User
-        exclude_fields = ('created', 'edited')
+        exclude_fields = ('created', 'edited', 'password')
 
     connection_type = Connection
 
@@ -60,6 +60,14 @@ class Group(DjangoNode):
     connection_type = Connection
 
 
+class CuratedList(DjangoNode):
+    class Meta:
+        model = models.CuratedList
+        exclude_fields = ('created', 'edited')
+
+    connection_type = Connection
+
+
 class Query(graphene.ObjectType):
     all_shows = DjangoConnectionField(Show)
     all_reviews = DjangoConnectionField(Review)
@@ -67,6 +75,7 @@ class Query(graphene.ObjectType):
     all_user_profiles = DjangoConnectionField(UserProfile)
     all_groups = DjangoConnectionField(Group)
     all_people = DjangoConnectionField(Person)
+    all_curated_lists = DjangoConnectionField(CuratedList)
     person = relay.NodeField(Person)
     show = relay.NodeField(Show)
     review = relay.NodeField(Review)
@@ -99,6 +108,10 @@ class Query(graphene.ObjectType):
     @resolve_only_args
     def resolve_all_groups(self, **kwargs):
         return models.Group.objects.all()
+
+    @resolve_only_args
+    def resolve_all_curated_lists(self, **kwargs):
+        return models.CuratedList.objects.all()
 
     def resolve_viewer(self, *args, **kwargs):
         return self

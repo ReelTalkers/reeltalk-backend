@@ -1,31 +1,43 @@
 [
   {
     "fields": {
-      "title": "Cool Group 1",
-      "users": [
+      "title": "All-Time Favorites",
+      "shows": [
         1,
-        2
+        2,
+        5,
+        6
       ],
       "is_private": false,
       "owner": 1,
+      "followers": [
+        1
+      ],
       "edited": "2014-12-20T21:17:56.891Z",
       "created": "2014-12-09T13:50:51.644Z"
     },
-    "model": "reeltalk.group",
+    "model": "reeltalk.curatedList",
     "pk": 1
   },
   {
     "fields": {
-      "title": "Cool Group 2",
-      "users": [
-        1
+      "title": "Best Comedies",
+      "shows": [
+        1,
+        5,
+        7,
+        8
       ],
-      "owner": 1,
       "is_private": false,
+      "owner": 1,
+      "followers": [
+        1,
+        2
+      ],
       "edited": "2014-12-20T21:17:57.811Z",
       "created": "2014-12-09T13:50:52.544Z"
     },
-    "model": "reeltalk.group",
+    "model": "reeltalk.curatedList",
     "pk": 2
   }
 ]

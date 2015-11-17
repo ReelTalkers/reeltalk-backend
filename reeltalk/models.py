@@ -11,7 +11,16 @@ class DateTimeModel(models.Model):
         abstract = True
 
 
+class UserProfile(DateTimeModel):
+    """ Public user profile """
+
+    user = models.OneToOneField(User)
+    picture = models.CharField(max_length=500)
+
+
 class Person(DateTimeModel):
+    """ Profile of someone who has been associated with shows """
+
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
 
@@ -20,6 +29,8 @@ class Person(DateTimeModel):
 
 
 class Show(DateTimeModel):
+    """ A movie or television show """
+
     title = models.CharField(max_length=100)
     description = models.CharField(max_length=1000)
     genre = models.CharField(max_length=50)
@@ -40,19 +51,49 @@ class Show(DateTimeModel):
 
 
 class Review(DateTimeModel):
+    """ A personal review of a movie """
+
     score = models.PositiveSmallIntegerField()
+    is_private = models.BooleanField(default=False)
     show = models.ForeignKey(Show)
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(UserProfile)
+
+    class Meta:
+        unique_together = ('show', 'user')
 
 
 class Group(DateTimeModel):
+    """ A collection of users used for creating recommendation filters """
+
     title = models.CharField(max_length=50)
     users = models.ManyToManyField(
-        User,
+        UserProfile,
         related_name="friend_groups",
         blank=True
     )
+    is_private = models.BooleanField(default=False)
+    owner = models.ForeignKey(UserProfile)
 
-class UserProfile(DateTimeModel):
-    user = models.OneToOneField(User)
-    picture = models.CharField(max_length=500)
+    class Meta:
+        unique_together = ('title', 'owner')
+
+
+class CuratedList(DateTimeModel):
+    """ Collection of user curated shows  """
+
+    title = models.CharField(max_length=100)
+    shows = models.ManyToManyField(
+        Show,
+        related_name="curated_lists",
+        blank=True
+    )
+    is_private = models.BooleanField(default=False)
+    owner = models.ForeignKey(UserProfile)
+    followers = models.ManyToManyField(
+        UserProfile,
+        related_name="subscribed_lists",
+        blank=True
+    )
+
+    class Meta:
+        unique_together = ('title', 'owner')
