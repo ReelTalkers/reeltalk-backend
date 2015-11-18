@@ -1,6 +1,7 @@
 import graphene
 from graphene import resolve_only_args, relay
 from graphene.contrib.django import DjangoNode, DjangoConnectionField
+from graphql.core.type import GraphQLArgument, GraphQLString
 
 from . import models
 
@@ -11,6 +12,7 @@ class Connection(relay.Connection):
     total_count = graphene.IntField()
 
     def resolve_total_count(self, args, info):
+        print(dir(self))
         return len(self.get_connection_data())
 
 
@@ -30,7 +32,6 @@ class Show(DjangoNode):
     @resolve_only_args
     def resolve_reviews(self, **args):
         return self.instance.review_set.all()
-
 
     class Meta:
         model = models.Show
@@ -124,6 +125,13 @@ class Query(graphene.ObjectType):
     group = relay.NodeField(Group)
     node = relay.NodeField()
     viewer = graphene.Field('self')
+    shows_by_genre = relay.ConnectionField(
+        Show, genre=GraphQLArgument(GraphQLString)
+    )
+
+    @resolve_only_args
+    def resolve_shows_by_genre(self, genre='', **kwargs):
+        return models.Show.objects.filter(genre=genre).all()
 
     @resolve_only_args
     def resolve_all_shows(self, **kwargs):
