@@ -15,17 +15,34 @@ class Connection(relay.Connection):
 
 
 class Person(DjangoNode):
+    portfolio = relay.ConnectionField(
+        Show, description='Shows in which this person is involved'
+    )
+
+    @resolve_only_args
+    def resolve_portfolio(self, *args):
+        return self.instance.show_set.all()
+
     class Meta:
         model = models.Person
-        exclude_fields = ('created', 'edited')
+        exclude_fields = ('created', 'edited', 'show')
 
     connection_type = Connection
 
 
 class Show(DjangoNode):
+    reviews = relay.ConnectionField(
+        Review, description='Reviews this show has received'
+    )
+
+    @resolve_only_args
+    def resolve_reviews(self, **args):
+        return self.instance.review_set.all()
+
+
     class Meta:
         model = models.Show
-        exclude_fields = ('created', 'edited')
+        exclude_fields = ('created', 'edited', 'review')
 
     connection_type = Connection
 
@@ -46,10 +63,12 @@ class User(DjangoNode):
     connection_type = Connection
 
 
-class UserProfile(DjangoNode):
+class CuratedList(DjangoNode):
     class Meta:
-        model = models.UserProfile
+        model = models.CuratedList
         exclude_fields = ('created', 'edited')
+
+    connection_type = Connection
 
 
 class Group(DjangoNode):
@@ -60,12 +79,32 @@ class Group(DjangoNode):
     connection_type = Connection
 
 
-class CuratedList(DjangoNode):
-    class Meta:
-        model = models.CuratedList
-        exclude_fields = ('created', 'edited')
+class UserProfile(DjangoNode):
+    subscribed_lists = relay.ConnectionField(
+        CuratedList, description='Curated lists this user is following'
+    )
+    groups = relay.ConnectionField(
+        Group, description='Groups this user has made'
+    )
+    reviews = relay.ConnectionField(
+        Review, description='Reviews this user has crafted'
+    )
 
-    connection_type = Connection
+    @resolve_only_args
+    def resolve_subscribed_lists(self, **args):
+        return self.instance.curatedlist_set.all()
+
+    @resolve_only_args
+    def resolve_groups(self, **args):
+        return self.instance.friend_groups.all()
+
+    @resolve_only_args
+    def resolve_reviews(self, **args):
+        return self.instance.review_set.all()
+
+    class Meta:
+        model = models.UserProfile
+        exclude_fields = ('created', 'edited', 'curatedlist', 'group', 'review')
 
 
 class Query(graphene.ObjectType):
@@ -81,6 +120,7 @@ class Query(graphene.ObjectType):
     review = relay.NodeField(Review)
     user = relay.NodeField(User)
     user_profile = relay.NodeField(UserProfile)
+    curated_list = relay.NodeField(CuratedList)
     group = relay.NodeField(Group)
     node = relay.NodeField()
     viewer = graphene.Field('self')

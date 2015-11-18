@@ -17,6 +17,13 @@ class UserProfile(DateTimeModel):
     user = models.OneToOneField(User)
     picture = models.CharField(max_length=500)
 
+    def get_full_name(self):
+        full_name = self.user.first_name + ' ' + self.user.last_name
+        return full_name if len(full_name) > 0 else self.user.username
+
+    def __str__(self):
+        return self.get_full_name()
+
 
 class Person(DateTimeModel):
     """ Profile of someone who has been associated with shows """
@@ -26,6 +33,9 @@ class Person(DateTimeModel):
 
     class Meta:
         verbose_name_plural = "people"
+
+    def __str__(self):
+        return self.first_name + ' ' + self.last_name
 
 
 class Show(DateTimeModel):
@@ -49,6 +59,9 @@ class Show(DateTimeModel):
         blank=True
     )
 
+    def __str__(self):
+        return self.title
+
 
 class Review(DateTimeModel):
     """ A personal review of a movie """
@@ -60,6 +73,9 @@ class Review(DateTimeModel):
 
     class Meta:
         unique_together = ('show', 'user')
+
+    def __str__(self):
+        return '{}: {} by {}'.format(self.show, self.score, self.user)
 
 
 class Group(DateTimeModel):
@@ -76,6 +92,9 @@ class Group(DateTimeModel):
 
     class Meta:
         unique_together = ('title', 'owner')
+
+    def __str__(self):
+        return self.title
 
 
 class CuratedList(DateTimeModel):
@@ -97,3 +116,6 @@ class CuratedList(DateTimeModel):
 
     class Meta:
         unique_together = ('title', 'owner')
+
+    def __str__(self):
+        return self.title
