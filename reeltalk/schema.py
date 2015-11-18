@@ -14,18 +14,10 @@ class Connection(relay.Connection):
         return len(self.get_connection_data())
 
 
-class Person(DjangoNode):
-    portfolio = relay.ConnectionField(
-        Show, description='Shows in which this person is involved'
-    )
-
-    @resolve_only_args
-    def resolve_portfolio(self, *args):
-        return self.instance.show_set.all()
-
+class Review(DjangoNode):
     class Meta:
-        model = models.Person
-        exclude_fields = ('created', 'edited', 'show')
+        model = models.Review
+        exclude_fields = ('created', 'edited')
 
     connection_type = Connection
 
@@ -47,10 +39,18 @@ class Show(DjangoNode):
     connection_type = Connection
 
 
-class Review(DjangoNode):
+class Person(DjangoNode):
+    portfolio = relay.ConnectionField(
+        Show, description='Shows in which this person is involved'
+    )
+
+    @resolve_only_args
+    def resolve_portfolio(self, *args):
+        return self.instance.show_set.all()
+
     class Meta:
-        model = models.Review
-        exclude_fields = ('created', 'edited')
+        model = models.Person
+        exclude_fields = ('created', 'edited', 'show')
 
     connection_type = Connection
 
