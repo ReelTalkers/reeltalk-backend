@@ -2,6 +2,7 @@ import graphene
 from graphene import resolve_only_args, relay
 from graphene.contrib.django import DjangoNode, DjangoConnectionField
 from graphql.core.type import GraphQLArgument, GraphQLString
+import re
 
 from . import models
 
@@ -108,6 +109,25 @@ class UserProfile(DjangoNode):
         exclude_fields = ('created', 'edited', 'curatedlist', 'group', 'review')
 
 
+def get_filterable_fields(model):
+    is_valid = lambda field: not field.is_relation and field.name not in ['created', 'edited', 'id']
+    return [field.name for field in model._meta.get_fields() if is_valid(field) ]
+
+def get_graphql_filter_arguments(fields):
+    return { to_camel_case(field): GraphQLArgument(GraphQLString) for field in fields }
+
+def extract_model_fields(model, all_fields):
+    return {to_snake_case(k):v for k, v in all_fields.items() if to_snake_case(k) in get_filterable_fields(model)}
+
+def to_camel_case(term):
+   first, *rest = term.split('_')
+   return first + ''.join(word.capitalize() for word in rest)
+
+def to_snake_case(term):
+    s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', term)
+    return re.sub('([a-z0-9])([A-Z])', r'\1_\2', s1).lower()
+
+
 class Query(graphene.ObjectType):
     all_shows = DjangoConnectionField(Show)
     all_reviews = DjangoConnectionField(Review)
@@ -125,13 +145,60 @@ class Query(graphene.ObjectType):
     group = relay.NodeField(Group)
     node = relay.NodeField()
     viewer = graphene.Field('self')
-    shows_by_genre = relay.ConnectionField(
-        Show, genre=GraphQLArgument(GraphQLString)
+    filter_curated_lists = relay.ConnectionField(
+        CuratedList,
+        **get_graphql_filter_arguments(get_filterable_fields(models.CuratedList))
+    )
+    filter_groups = relay.ConnectionField(
+        Group,
+        **get_graphql_filter_arguments(get_filterable_fields(models.Group))
+    )
+    filter_people = relay.ConnectionField(
+        Person,
+        **get_graphql_filter_arguments(get_filterable_fields(models.Person))
+    )
+    filter_reviews = relay.ConnectionField(
+        Review,
+        **get_graphql_filter_arguments(get_filterable_fields(models.Review))
+    )
+    filter_shows = relay.ConnectionField(
+        Show,
+        **get_graphql_filter_arguments(get_filterable_fields(models.Show))
+    )
+    filter_user_profiles = relay.ConnectionField(
+        UserProfile,
+        **get_graphql_filter_arguments(get_filterable_fields(models.UserProfile))
     )
 
     @resolve_only_args
-    def resolve_shows_by_genre(self, genre='', **kwargs):
-        return models.Show.objects.filter(genre=genre).all()
+    def resolve_filter_curated_lists(self, **kwargs):
+        model_filters = extract_model_fields(models.CuratedList, kwargs)
+        return models.CuratedList.objects.filter(**model_filters)
+
+    @resolve_only_args
+    def resolve_filter_groups(self, **kwargs):
+        model_filters = extract_model_fields(models.Group, kwargs)
+        return models.Group.objects.filter(**model_filters)
+
+    @resolve_only_args
+    def resolve_filter_people(self, **kwargs):
+        model_filters = extract_model_fields(models.Person, kwargs)
+        return models.Person.objects.filter(**model_filters)
+
+    @resolve_only_args
+    def resolve_filter_reviews(self, **kwargs):
+        model_filters = extract_model_fields(models.Review, kwargs)
+        return models.Review.objects.filter(**model_filters)
+
+    @resolve_only_args
+    def resolve_filter_shows(self, **kwargs):
+        model_filters = extract_model_fields(models.Show, kwargs)
+        return models.Show.objects.filter(**model_filters)
+
+    @resolve_only_args
+    def resolve_filter_user_profiles(self, **kwargs):
+        model_filters = extract_model_fields(models.UserProfile, kwargs)
+        return models.UserProfile.objects.filter(**model_filters)
 
     @resolve_only_args
     def resolve_all_shows(self, **kwargs):
