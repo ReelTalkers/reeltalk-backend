@@ -60,5 +60,5 @@ static
 *.sqlite*
 schema.json
 
-omdbFull*/*.txt
+omdb*
 *.zip
