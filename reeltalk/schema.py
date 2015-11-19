@@ -142,6 +142,9 @@ def get_graphql_filter_arguments(fields):
                     filter_args['{}__{}'.format(key, 'contains')] = GraphQLArgument(graphql_type)
                 filter_args[key] = GraphQLArgument(graphql_type)
         else:
+            graphql_type = get_graphql_type(field)
+            if graphql_type == GraphQLString:
+                filter_args['{}__{}'.format(field.name, 'contains')] = GraphQLArgument(graphql_type)
             filter_args[field.name] = GraphQLArgument(get_graphql_type(field))
     return filter_args
 
@@ -229,4 +232,4 @@ import json
 
 introspection_dict = schema.introspect()
 
-#print(json.dumps(introspection_dict))
+print(json.dumps(introspection_dict))
