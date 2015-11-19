@@ -135,49 +135,23 @@ def get_graphql_filter_arguments(fields):
     filter_args = {}
     for field in fields:
         if field.is_relation:
-            for relation_field in get_filterable_fields(field.related_model, accept_relations=False):
-                key = '{}__{}'.format(to_camel_case(field.name), to_camel_case(relation_field.name))
-                filter_args[key] = GraphQLArgument(get_graphql_type(relation_field))
+            for related_field in get_filterable_fields(field.related_model, accept_relations=False):
+                key = '{}__{}'.format(field.name, related_field.name)
+                filter_args[key] = GraphQLArgument(get_graphql_type(related_field))
         else:
-            filter_args[to_camel_case(field.name)] = GraphQLArgument(get_graphql_type(field))
+            filter_args[field.name] = GraphQLArgument(get_graphql_type(field))
     return filter_args
 
 def extract_model_filters(model, all_fields):
     model_filters = {}
     for k, v in all_fields.items():
-        field_name = to_snake_case(k)
+        field_name = k
         if '__' in k:
             model_filters[field_name] = v
             continue
         if field_name in [field.name for field in get_filterable_fields(model)]:
             model_filters[field_name] = v
     return model_filters
-
-def to_camel_case(term):
-    if '__' in term:
-        terms = term.split('__')
-        term1 = to_camel_case_simple(terms[0])
-        term2 = to_camel_case_simple(terms[1])
-        return '{}__{}'.format(term1, term2)
-    else:
-        return to_camel_case_simple(term)
-
-def to_camel_case_simple(term):
-    first, *rest = term.split('_')
-    return first + ''.join(word.capitalize() for word in rest)
-
-def to_snake_case(term):
-    if '__' in term:
-        terms = term.split('__')
-        term1 = to_snake_case_simple(terms[0])
-        term2 = to_snake_case_simple(terms[1])
-        return '{}__{}'.format(term1, term2)
-    else:
-        return to_snake_case_simple(term)
-
-def to_snake_case_simple(term):
-    s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', term)
-    return re.sub('([a-z0-9])([A-Z])', r'\1_\2', s1).lower()
 
 
 class Query(graphene.ObjectType):
@@ -252,4 +226,4 @@ import json
 
 introspection_dict = schema.introspect()
 
-print(json.dumps(introspection_dict))
+#print(json.dumps(introspection_dict))
