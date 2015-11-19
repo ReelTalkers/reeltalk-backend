@@ -41,10 +41,23 @@ class Person(DateTimeModel):
 class Show(DateTimeModel):
     """ A movie or television show """
 
+    imdb_id = models.CharField(max_length=50, unique=True)
     title = models.CharField(max_length=100)
-    description = models.CharField(max_length=1000)
+    rating = models.CharField(max_length=20)
+    released = models.CharField(max_length=20)
+    plot = models.CharField(max_length=1000)
+    full_plot = models.TextField()
     genre = models.CharField(max_length=50)
-    director = models.ForeignKey(Person)
+    directors = models.ManyToManyField(
+        Person,
+        related_name="directions",
+        blank=True
+    )
+    writers = models.ManyToManyField(
+        Person,
+        related_name="scripts",
+        blank=True
+    )
     banner = models.CharField(max_length=500)
     poster = models.CharField(max_length=500)
     background_color = models.CharField(max_length=10, default="#ffffff")
@@ -53,11 +66,19 @@ class Show(DateTimeModel):
     year = models.CharField(max_length=4)
     mpaa_rating = models.CharField(max_length=20)
     runtime = models.CharField(max_length=50)
-    actors = models.ManyToManyField(
+    cast = models.ManyToManyField(
         Person,
         related_name="portfolio",
         blank=True
     )
+    metacritic = models.SmallPositiveIntegerField()
+    imdbRating = models.DecimalField()
+    imdbVotes = models.PositiveIntegerField()
+    language = models.CharField(max_length=50)
+    country = models.CharField(max_length=50)
+    awards = models.CharField(max_length=200)
+    lastUpdated = models.TimeStampField()
+    type = models.CharField(max_length=20)
 
     def __str__(self):
         return self.title

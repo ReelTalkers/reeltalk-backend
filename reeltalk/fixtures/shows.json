@@ -1,388 +1,1600 @@
 [
     {
         "fields": {
-            "title": "Burnt",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Drama",
-            "director_id": 2,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/xfHtVKzKXwR1NRRHzymgHGDtvQI=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/16/11201614_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/mC0pf1bydVaoDypsqwDkNn4NJJm.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "created": "2014-12-12T11:26:24.656Z",
-            "edited": "2014-12-15T13:07:53.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 1
-    },
-    {
-        "fields": {
-            "title": "Scouts Guide",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Comedy",
-            "director_id": 1,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/0IezF1ZHJ6OQq7toBLOibBJzTEw=/180x240/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/02/11200260_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/3wHxtemithpFQiB7ffa50ZKI6bz.jpg",
-            "background_color": "rgb(107, 78, 90)",
-            "text_color": "rgb(205, 165, 148)",
-            "detail_color": "rgb(147, 167, 164)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "created": "2014-12-12T11:26:24.657Z",
-            "edited": "2014-12-15T14:07:53.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 2
-    },
-    {
-        "fields": {
-            "title": "The Wonders",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Action",
-            "director_id": 2,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/djFct1UfNF8lQVLMuKPt-WgWDSc=/180x263/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/21/11202157_ori.jpg",
-            "banner": "http://www.goldposter.com/wp-content/uploads/2015/10/Le-meraviglie_poster_goldposter_com_2.jpg",
-            "background_color": "rgb(32, 163, 250)",
-            "text_color": "rgb(216, 198, 114)",
-            "detail_color": "rgb(117, 89, 54)",
-            "actors": [
-                1,
-                2,
-                3
-            ],
-            "created": "2014-12-13T11:26:24.656Z",
-            "edited": "2014-12-16T13:07:53.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 3
-    },
-    {
-        "fields": {
-            "title": "Our Brand is Crisis",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Action",
-            "director_id": 1,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/Qv1BOsJoqQmduDItpZJW6rMgx7E=/180x240/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/23/11202343_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/jLp0GFoptqvPHXqf8uPXAXTtxUp.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3
-            ],
-            "created": "2014-11-12T11:26:24.656Z",
-            "edited": "2014-12-15T13:17:53.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 4
-    },
-    {
-        "fields": {
-            "title": "Oklahoma!",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Comedy",
-            "director_id": 3,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/zlgB9LonVfUYOOm3TV1OutA95v8=/179x257/dkpu1ddg7pbsk.cloudfront.net/movie/11/16/49/11164955_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/cQJ03k3rXBSYsH8Oz4JyCCPnf0w.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "created": "2014-10-12T11:26:24.656Z",
-            "edited": "2014-11-15T13:07:53.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 5
-    },
-    {
-        "fields": {
-            "title": "The Martian",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Drama",
-            "director_id": 1,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/rT6Zrdsk5jerxadzoklaO75zdNo=/180x266/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/23/11202355_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/AjbENYG3b8lhYSkdrWwlhVLRPKR.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "created": "2014-10-12T12:26:24.656Z",
-            "edited": "2014-12-15T13:27:53.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 6
-    },
-    {
-        "fields": {
-            "title": "Goosebumps",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Comedy",
-            "director_id": 2,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/iJ6a8SHiJYi0GrImnZNFbxVx_-Y=/180x240/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/31/11193185_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/lNPMamUICDTZT6Njg57A6z9BEo3.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "created": "2014-11-14T11:26:24.656Z",
-            "edited": "2014-12-15T13:07:43.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 7
-    },
-    {
-        "fields": {
-            "title": "Bridge of Spies",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Drama",
-            "director_id": 1,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/tAquknRxX7pynS1DZaBpGTHyRyA=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/14/11191456_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/AcuW0ITY1WElLzIoiA6PpPCsGwm.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "created": "2014-12-15T11:26:24.646Z",
-            "edited": "2014-12-16T13:37:53.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 8
-    },
-    {
-        "fields": {
-            "title": "Hotel Translyvania",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Comedy",
-            "director_id": 1,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/-dfvNhkq-a0WRawTg6SofCRl4Fo=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/15/11191564_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/t4PLWexbe4wbNydCOBv18cYexup.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "created": "2014-12-12T11:26:25.656Z",
-            "edited": "2014-12-15T13:18:53.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 9
-    },
-    {
-        "fields": {
-            "title": "Steve Jobs",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Drama",
-            "director_id": 3,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/38yI97kbunRUBKc9EzPzfjJCEBU=/171x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/16/11201611_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/7SUaf2UgoY0ZRGbQtRlfDkLDBCb.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "created": "2014-12-12T11:27:34.656Z",
-            "edited": "2014-12-14T13:07:43.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 10
-    },
-    {
-        "fields": {
-            "title": "Crimson Peak",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Drama",
-            "director_id": 1,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/1dGvwnevgBvYDAGusvjG-0DuOyA=/171x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/00/11190023_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/pCj8zem1NDAODdtvha9WFEB6iWR.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "created": "2014-12-13T11:26:24.656Z",
-            "edited": "2014-12-16T13:07:33.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 11
-    },
-    {
-        "fields": {
-            "title": "The Intern",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Comedy",
-            "director_id": 1,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/obh-_CU9WsxHHXwF_sN_VevEOg8=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/20/11202098_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/vQ7oVX2j7BnMDYyzuFeG1epqvGb.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
-            ],
-            "created": "2014-12-13T11:26:24.626Z",
-            "edited": "2014-12-16T13:07:53.386Z"
-        },
-        "model": "reeltalk.show",
-        "pk": 12
-    },
-    {
-        "fields": {
-            "title": "Spectre",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Action",
-            "director_id": 1,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/HGsEg-bnDHUKvCnt1TvVY-L9TNw=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/33/11203374_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/zHx5KaKaQdZZnEUgtjcIdNcB3ka.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
+            "released": "",
+            "imdbID": "tt0000001",
+            "year": "1894",
+            "imdbVotes": "1087",
+            "cast": [
                 2
             ],
-            "created": "2014-12-14T11:26:24.656Z",
-            "edited": "2014-12-18T13:47:53.386Z"
+            "writers": [],
+            "metacritic": "",
+            "poster": "http://ia.media-imdb.com/images/M/MV5BMjAzNDEwMzk3OV5BMl5BanBnXkFtZTcwOTk4OTM5Ng@@._V1_SX300.jpg",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "NOT RATED",
+            "runtime": "1 min",
+            "country": "USA",
+            "directors": [
+                1
+            ],
+            "plot": "Performing on what looks like a small wooden stage, wearing a dress with a hoop skirt and white high-heeled pumps, Carmencita does a dance with kicks and twirls, a smile always on her face.",
+            "created": "2015-11-19T00:11:26.132921",
+            "lastUpdated": "2015-11-09 13:18:05.367000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.8",
+            "fullPlot": "Performing on what looks like a small wooden stage, wearing a dress with a hoop skirt and white high-heeled pumps, Carmencita does a dance with kicks and twirls, a smile always on her face.",
+            "title": "Carmencita",
+            "edited": "2015-11-19T00:11:26.132938"
         },
-        "model": "reeltalk.show",
-        "pk": 13
+        "pk": 1,
+        "model": "reeltalk.show"
     },
     {
         "fields": {
-            "title": "The Peanuts Movie",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Comedy",
-            "director_id": 1,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/u18p3DSqVcnK6RedN0_C6lY2lvA=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/14/11191451_ori.jpg",
-            "banner": "https://image.tmdb.org/t/p/original/zF6WpDC7fYTx2pqUYUet06buYmB.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
-                4
+            "released": "1892-10-28",
+            "imdbID": "tt0000002",
+            "year": "1892",
+            "imdbVotes": "122",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Animation, Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                3
             ],
-            "created": "2014-12-13T11:27:24.656Z",
-            "edited": "2014-12-19T13:07:53.386Z"
+            "plot": "Short film of 300 individually painted images.",
+            "created": "2015-11-19T00:11:26.132997",
+            "lastUpdated": "2015-08-12 00:06:01.033000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "6.4",
+            "fullPlot": "Short film of 300 individually painted images.",
+            "title": "Le clown et ses chiens",
+            "edited": "2015-11-19T00:11:26.133006"
         },
-        "model": "reeltalk.show",
-        "pk": 14
+        "pk": 2,
+        "model": "reeltalk.show"
     },
     {
         "fields": {
-            "title": "Brooklyn",
-            "year": "2015",
-            "runtime": "2 hr",
-            "mpaa_rating": "F (for fun)",
-            "genre": "Action",
-            "director_id": 1,
-            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
-            "poster": "http://resizing.flixster.com/TP0sHdM50GAs7c6QLmuBdJ_eIoQ=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/19/11201971_ori.jpg",
-            "banner": "http://image.tmdb.org/t/p/original/yeA0eyNUmMlvXPkm9AHQfzxOwPy.jpg",
-            "background_color": "rgba(208, 206, 184, 1)",
-            "text_color": "rgb(57, 35, 29)",
-            "detail_color": "rgb(169, 116, 56)",
-            "actors": [
-                1,
-                2,
-                3,
+            "released": "1892-10-28",
+            "imdbID": "tt0000003",
+            "year": "1892",
+            "imdbVotes": "596",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Animation, Comedy, Short",
+            "rating": "",
+            "runtime": "4 min",
+            "country": "France",
+            "directors": [
                 4
             ],
-            "created": "2014-12-18T11:26:24.656Z",
-            "edited": "2014-12-20T13:07:52.386Z"
+            "plot": "One night, Arlequin come to see his lover Colombine. But then Pierrot knocks at the door and Colombine and Arlequin hide. Pierrot starts singing but Arlequin scares him and the poor man goes away.",
+            "created": "2015-11-19T00:11:26.133049",
+            "lastUpdated": "2015-10-17 00:09:13.963000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "6.7",
+            "fullPlot": "One night, Arlequin come to see his lover Colombine. But then Pierrot knocks at the door and Colombine and Arlequin hide. Pierrot starts singing but Arlequin scares him and the poor man goes away.",
+            "title": "Pauvre Pierrot",
+            "edited": "2015-11-19T00:11:26.133067"
         },
-        "model": "reeltalk.show",
-        "pk": 15
+        "pk": 3,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1892-10-28",
+            "imdbID": "tt0000004",
+            "year": "1892",
+            "imdbVotes": "78",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Animation, Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                5
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.133117",
+            "lastUpdated": "2015-08-12 00:06:04.267000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "6.6",
+            "fullPlot": "",
+            "title": "Un bon bock",
+            "edited": "2015-11-19T00:11:26.133125"
+        },
+        "pk": 4,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1893-05-09",
+            "imdbID": "tt0000005",
+            "year": "1893",
+            "imdbVotes": "1212",
+            "cast": [
+                7,
+                8
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short",
+            "rating": "UNRATED",
+            "runtime": "1 min",
+            "country": "USA",
+            "directors": [
+                6
+            ],
+            "plot": "Three men hammer on an anvil and pass a bottle of beer around.",
+            "created": "2015-11-19T00:11:26.133180",
+            "lastUpdated": "2015-10-06 00:58:31.583000000",
+            "awards": "1 win.",
+            "language": "",
+            "imdbRating": "6.2",
+            "fullPlot": "A stationary camera looks at a large anvil with a blacksmith behind it and one on either side. The smith in the middle draws a heated metal rod from the fire, places it on the anvil, and all three begin a rhythmic hammering. After several blows, the metal goes back in the fire. One smith pulls out a bottle of beer, and they each take a swig. Then, out comes the glowing metal and the hammering resumes.",
+            "title": "Blacksmith Scene",
+            "edited": "2015-11-19T00:11:26.133188"
+        },
+        "pk": 5,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1894-10-17",
+            "imdbID": "tt0000006",
+            "year": "1894",
+            "imdbVotes": "56",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "USA",
+            "directors": [
+                9
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.133227",
+            "lastUpdated": "2015-11-07 02:33:48.003000000",
+            "awards": "",
+            "language": "English",
+            "imdbRating": "6.0",
+            "fullPlot": "",
+            "title": "Chinese Opium Den",
+            "edited": "2015-11-19T00:11:26.133235"
+        },
+        "pk": 6,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000007",
+            "year": "1894",
+            "imdbVotes": "406",
+            "cast": [
+                12,
+                13
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short, Sport",
+            "rating": "NOT RATED",
+            "runtime": "1 min",
+            "country": "USA",
+            "directors": [
+                10,
+                11
+            ],
+            "plot": "James J. Corbett and Peter Courtney meet in a boxing exhibition.",
+            "created": "2015-11-19T00:11:26.133297",
+            "lastUpdated": "2015-11-01 13:31:30.947000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.5",
+            "fullPlot": "James J. Corbett and Peter Courtney meet in a boxing exhibition, with special conditions that will allow the Thomas Edison Company to film the match and show it on their Kinetograph. The match consists of six one-minute rounds. The popular James J. Corbett had earlier defeated the great John L. Sullivan and must be considered a heavy favourite. But, at least for a while, Peter Courtney seems to be holding his own.",
+            "title": "Corbett and Courtney Before the Kinetograph",
+            "edited": "2015-11-19T00:11:26.133305"
+        },
+        "pk": 7,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1894-01-09",
+            "imdbID": "tt0000008",
+            "year": "1894",
+            "imdbVotes": "1025",
+            "cast": [
+                15
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "USA",
+            "directors": [
+                14
+            ],
+            "plot": "A man (Thomas Edison's assistant) takes a pinch of snuff and sneezes. This is one of the earliest Thomas Edison films and was the first motion picture to be copyrighted in the United States.",
+            "created": "2015-11-19T00:11:26.133352",
+            "lastUpdated": "2015-10-06 00:58:34.947000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.8",
+            "fullPlot": "A man (Edison's assistant) takes a pinch of snuff and sneezes. This is one of the earliest Edison films and was the first motion picture to be copyrighted in the United States.",
+            "title": "Edison Kinetoscopic Record of a Sneeze",
+            "edited": "2015-11-19T00:11:26.133360"
+        },
+        "pk": 8,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1894-10-09",
+            "imdbID": "tt0000009",
+            "year": "1894",
+            "imdbVotes": "66",
+            "cast": [
+                18,
+                19,
+                20
+            ],
+            "writers": [
+                17
+            ],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Romance",
+            "rating": "",
+            "runtime": "45 min",
+            "country": "USA",
+            "directors": [
+                17
+            ],
+            "plot": "The adventures of a female reporter in the 1890s.",
+            "created": "2015-11-19T00:11:26.133428",
+            "lastUpdated": "2015-10-06 00:58:47.687000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.2",
+            "fullPlot": "Geraldine (Jerry) Holbrook, a girl of Eastern birth, decides to start a career in journalism in the heart of New York, after she feels that her father is close to a financial crush. In the process she falls in love with the editor of her paper, Mr. Hamilton. After the first successful article, she leads Hamilton into doubting her love for him, and this makes him accept a job in London. But his worries prove wrong when Jerry accepts to marry him and leave to London.",
+            "title": "Miss Jerry",
+            "edited": "2015-11-19T00:11:26.133436"
+        },
+        "pk": 9,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1895-03-22",
+            "imdbID": "tt0000010",
+            "year": "1895",
+            "imdbVotes": "3606",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                21
+            ],
+            "plot": "A man opens the big gates to the Lumi\u00e8re factory. Through the gateway and a smaller doorway beside it, workers are streaming out, turning either left or right. Most of them are women in ...",
+            "created": "2015-11-19T00:11:26.133481",
+            "lastUpdated": "2015-11-13 01:40:11.337000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "6.9",
+            "fullPlot": "A man opens the big gates to the Lumi\u00e8re factory. Through the gateway and a smaller doorway beside it, workers are streaming out, turning either left or right. Most of them are women in long dresses and big hats, but some are men. Suddenly a man with a long apron rushes out through the crowd, followed by a big dog. At last some men on bikes leave the gateway. When all workers have left the factory, the doorkeeper starts closing the gates again.",
+            "title": "Employees Leaving the Lumi\u00e8re Factory",
+            "edited": "2015-11-19T00:11:26.133489"
+        },
+        "pk": 10,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1895-11-01",
+            "imdbID": "tt0000011",
+            "year": "1895",
+            "imdbVotes": "114",
+            "cast": [
+                23
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "Germany",
+            "directors": [
+                22
+            ],
+            "plot": "Eight circus performers known as the Grunato family perform their famous balancing act.",
+            "created": "2015-11-19T00:11:26.133536",
+            "lastUpdated": "2015-10-06 00:58:50.857000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.5",
+            "fullPlot": "Eight circus performers known as the Grunato family perform their famous balancing act.",
+            "title": "Akrobatisches Potpourri",
+            "edited": "2015-11-19T00:11:26.133544"
+        },
+        "pk": 11,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1896-01-01",
+            "imdbID": "tt0000012",
+            "year": "1896",
+            "imdbVotes": "5449",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "http://ia.media-imdb.com/images/M/MV5BMjEyNDk5MDYzOV5BMl5BanBnXkFtZTgwNjIxMTEwMzE@._V1_SX300.jpg",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                24,
+                25
+            ],
+            "plot": "A group of people are standing in a straight line along the platform of a railway station, waiting for a train, which is seen coming at some distance. When the train stops at the platform, ...",
+            "created": "2015-11-19T00:11:26.133595",
+            "lastUpdated": "2015-11-03 00:22:22.053000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "7.3",
+            "fullPlot": "",
+            "title": "The Arrival of a Train",
+            "edited": "2015-11-19T00:11:26.133603"
+        },
+        "pk": 12,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1895-06-12",
+            "imdbID": "tt0000013",
+            "year": "1895",
+            "imdbVotes": "904",
+            "cast": [
+                27
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "NOT RATED",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                26
+            ],
+            "plot": "Another milestone in film history - this may well have been the very first film to have been developed and shown to its subjects (the members of the Congress of Photographic Societies) on ...",
+            "created": "2015-11-19T00:11:26.133649",
+            "lastUpdated": "2015-10-06 00:58:54.123000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.6",
+            "fullPlot": "Another milestone in film history - this may well have been the very first film to have been developed and shown to its subjects (the members of the Congress of Photographic Societies) on the same day that they were filmed",
+            "title": "The Photographical Congress Arrives in Lyon",
+            "edited": "2015-11-19T00:11:26.133657"
+        },
+        "pk": 13,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000014",
+            "year": "1895",
+            "imdbVotes": "2593",
+            "cast": [
+                29,
+                30
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Comedy, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                28
+            ],
+            "plot": "A gardener is watering his flowers, when a mischievous boy sneaks up behind his back, and puts a foot on the water hose. The gardener is surprised, and looks into the nozzle to find out why...",
+            "created": "2015-11-19T00:11:26.133716",
+            "lastUpdated": "2015-09-24 01:41:47.487000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "7.1",
+            "fullPlot": "A gardener is watering his flowers, when a mischievous boy sneaks up behind his back, and puts a foot on the water hose. The gardener is surprised, and looks into the nozzle to find out why the water has stopped coming. The boy lifts his foot from the hose, whereby the water squirts up in the gardener's face. The gardener chases the boy, grips his ear, and slaps him in his buttocks. The boy runs away, and the gardener continues his watering.",
+            "title": "Tables Turned on the Gardener",
+            "edited": "2015-11-19T00:11:26.133724"
+        },
+        "pk": 14,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1894-12-01",
+            "imdbID": "tt0000015",
+            "year": "1894",
+            "imdbVotes": "397",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Animation, Short",
+            "rating": "",
+            "runtime": "2 min",
+            "country": "France",
+            "directors": [
+                31
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.133767",
+            "lastUpdated": "2015-10-14 00:03:53.440000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "6.3",
+            "fullPlot": "",
+            "title": "Autour d'une cabine",
+            "edited": "2015-11-19T00:11:26.133776"
+        },
+        "pk": 15,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000016",
+            "year": "1895",
+            "imdbVotes": "642",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                32
+            ],
+            "plot": "This is another one-shot Lumiere Brothers film, which consists of a single shot of a boat leaving the port, being watched by members of the Lumiere family.",
+            "created": "2015-11-19T00:11:26.133820",
+            "lastUpdated": "2015-10-14 00:03:57.673000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.9",
+            "fullPlot": "This is another one-shot Lumiere Brothers film, which consists of a single shot of a boat leaving the port, being watched by members of the Lumiere family.",
+            "title": "Barque sortant du port",
+            "edited": "2015-11-19T00:11:26.133828"
+        },
+        "pk": 16,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1895-11-01",
+            "imdbID": "tt0000017",
+            "year": "1895",
+            "imdbVotes": "109",
+            "cast": [
+                35,
+                36
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "Germany",
+            "directors": [
+                33,
+                34
+            ],
+            "plot": "Two children, Ploetz and Larella, perform an Italian peasant dance.",
+            "created": "2015-11-19T00:11:26.133932",
+            "lastUpdated": "2015-10-31 00:15:16.263000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.2",
+            "fullPlot": "Two children, Ploetz and Larella, perform an Italian peasant dance.",
+            "title": "Italienischer Bauerntanz",
+            "edited": "2015-11-19T00:11:26.133941"
+        },
+        "pk": 17,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1895-11-01",
+            "imdbID": "tt0000018",
+            "year": "1895",
+            "imdbVotes": "260",
+            "cast": [
+                38
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "Germany",
+            "directors": [
+                37
+            ],
+            "plot": "A man and a kangaroo stand up in front of each other with boxing gloves, and simulate a boxing match on a theatre stage.",
+            "created": "2015-11-19T00:11:26.133987",
+            "lastUpdated": "2015-10-14 00:04:05.167000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.5",
+            "fullPlot": "A man and a kangaroo stand up in front of each other with boxing gloves, and simulate a boxing match on a theatre stage.",
+            "title": "Das boxende K\u00e4nguruh",
+            "edited": "2015-11-19T00:11:26.133994"
+        },
+        "pk": 18,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1898-08-01",
+            "imdbID": "tt0000019",
+            "year": "1898",
+            "imdbVotes": "13",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short, Comedy",
+            "rating": "",
+            "runtime": "",
+            "country": "UK",
+            "directors": [
+                39
+            ],
+            "plot": "Clown cuts off customer's head and replaces it.",
+            "created": "2015-11-19T00:11:26.134035",
+            "lastUpdated": "2015-10-14 00:04:09.400000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.8",
+            "fullPlot": "Clown cuts off customer's head and replaces it.",
+            "title": "The Clown Barber",
+            "edited": "2015-11-19T00:11:26.134043"
+        },
+        "pk": 19,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000020",
+            "year": "1895",
+            "imdbVotes": "153",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short, Sport",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "UK",
+            "directors": [
+                40
+            ],
+            "plot": "A stationary camera, looking diagonally across a racetrack toward the infield, records the horses as they race past. Once they are out of view and the race is over, police officers run onto...",
+            "created": "2015-11-19T00:11:26.134082",
+            "lastUpdated": "2015-10-14 00:04:15.197000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.2",
+            "fullPlot": "A stationary camera, looking diagonally across a racetrack toward the infield, records the horses as they race past. Once they are out of view and the race is over, police officers run onto the infield. The crowd moves around.",
+            "title": "The Derby 1895",
+            "edited": "2015-11-19T00:11:26.134090"
+        },
+        "pk": 20,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1895-06-12",
+            "imdbID": "tt0000021",
+            "year": "1895",
+            "imdbVotes": "910",
+            "cast": [
+                42
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "NOT RATED",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                41
+            ],
+            "plot": "Another milestone in film history - this may well have been the very first film to have been developed and shown to its subjects (the members of the Congress of Photographic Societies) on ...",
+            "created": "2015-11-19T00:11:26.134140",
+            "lastUpdated": "2015-10-14 00:04:22.167000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.6",
+            "fullPlot": "Another milestone in film history - this may well have been the very first film to have been developed and shown to its subjects (the members of the Congress of Photographic Societies) on the same day that they were filmed",
+            "title": "The Photographical Congress Arrives in Lyon",
+            "edited": "2015-11-19T00:11:26.134147"
+        },
+        "pk": 21,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1896-06-28",
+            "imdbID": "tt0000022",
+            "year": "1895",
+            "imdbVotes": "482",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                43
+            ],
+            "plot": "Two blacksmiths are at work, facing the camera, a wall, window, and stacked boxes behind them. Both are mustachioed with dark hair. On our right, a smith in the dark clothes of a laborer ...",
+            "created": "2015-11-19T00:11:26.134186",
+            "lastUpdated": "2015-10-06 00:58:58.977000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.1",
+            "fullPlot": "",
+            "title": "Blacksmith Scene",
+            "edited": "2015-11-19T00:11:26.134193"
+        },
+        "pk": 22,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1896-06-28",
+            "imdbID": "tt0000023",
+            "year": "1895",
+            "imdbVotes": "620",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                44
+            ],
+            "plot": "Several little boys run along a pier, then jump into the ocean.",
+            "created": "2015-11-19T00:11:26.134240",
+            "lastUpdated": "2015-10-14 00:04:28.780000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.6",
+            "fullPlot": "The sea is before us. Some rocks are visible to the right and a narrow jetty extends about ten meters or so about three feet above the sea, held up by two sets of pylons. A woman and several lads about ten years old are coming out onto the rocks, one climbs onto the jetty at the end. He jumps back into the sea as the lads and lady run out to the end of the jetty and jump off. Even though the sea looks to be only about a foot deep, one boy does a flip into the water and repeats it later. The others simply jump in.",
+            "title": "The Sea",
+            "edited": "2015-11-19T00:11:26.134248"
+        },
+        "pk": 23,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000024",
+            "year": "1895",
+            "imdbVotes": "19",
+            "cast": [
+                46,
+                47
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short, News",
+            "rating": "",
+            "runtime": "",
+            "country": "UK",
+            "directors": [
+                45
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.134301",
+            "lastUpdated": "2015-10-14 00:04:35.323000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.2",
+            "fullPlot": "",
+            "title": "Opening of the Kiel Canal",
+            "edited": "2015-11-19T00:11:26.134308"
+        },
+        "pk": 24,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000025",
+            "year": "1895",
+            "imdbVotes": "18",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short, News, Sport",
+            "rating": "",
+            "runtime": "",
+            "country": "UK",
+            "directors": [
+                48
+            ],
+            "plot": "Although the content of this film is primitive in the extreme - a shot of the traditional Oxford versus Cambridge University Boat Race, filmed on March 30 1895 - this film is of immense ...",
+            "created": "2015-11-19T00:11:26.134345",
+            "lastUpdated": "2015-10-06 00:59:00.913000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "4.3",
+            "fullPlot": "",
+            "title": "The Oxford and Cambridge University Boat Race",
+            "edited": "2015-11-19T00:11:26.134353"
+        },
+        "pk": 25,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1896-02-23",
+            "imdbID": "tt0000026",
+            "year": "1896",
+            "imdbVotes": "836",
+            "cast": [
+                50
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                49
+            ],
+            "plot": "Two men play cards, as a third watches and a waiter brings drinks. The third man pours drinks as the waiter laughs.",
+            "created": "2015-11-19T00:11:26.134402",
+            "lastUpdated": "2015-09-16 07:18:36.623000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.7",
+            "fullPlot": "Two men are playing a friendly game of cards, while a third man sits at the same table and watches them. As the game proceeds, a waiter brings a tray with a bottle and some glasses. The spectator pours the drinks, while the waiter turns his attention to the game, which he finds quite entertaining.",
+            "title": "The Messers. Lumi\u00e8re at Cards",
+            "edited": "2015-11-19T00:11:26.134410"
+        },
+        "pk": 26,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1895-12-28",
+            "imdbID": "tt0000027",
+            "year": "1895",
+            "imdbVotes": "503",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                51
+            ],
+            "plot": "A stationary camera looks across the boulevard at a diagonal toward one corner of Lyon's Cordeliers' Square. It's a long shot, with a great deal of depth of focus. We can see the sky and ...",
+            "created": "2015-11-19T00:11:26.134453",
+            "lastUpdated": "2015-10-14 00:04:43.187000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.6",
+            "fullPlot": "A stationary camera looks across the boulevard at a diagonal toward one corner of Lyon's Cordeliers' Square. It's a long shot, with a great deal of depth of focus. We can see the sky and fronts of four buildings, each four or five stories tall. It's a busy thoroughfare, with pedestrians walking in front of the buildings and crossing the boulevard between horse-drawn vehicles. A double-decker bus passes in front of us, pulled by two horses. Various tradesmen pass on wagons. One van passes.",
+            "title": "Cordeliers' Square in Lyon",
+            "edited": "2015-11-19T00:11:26.134461"
+        },
+        "pk": 27,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1895-12-28",
+            "imdbID": "tt0000028",
+            "year": "1895",
+            "imdbVotes": "459",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                52
+            ],
+            "plot": "A man holds a child of about 10 or 11 months so the child can stand on a table and look down into a large clear goldfish bowl, nearly full of water, with two goldfish swimming in it. The ...",
+            "created": "2015-11-19T00:11:26.134500",
+            "lastUpdated": "2015-10-22 16:29:52.493000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.1",
+            "fullPlot": "A man holds a child of about 10 or 11 months so the child can stand on a table and look down into a large clear goldfish bowl, nearly full of water, with two goldfish swimming in it. The child, dressed in a white gown with a white cap, makes an occasional grab for a fish. The fish evade the child.",
+            "title": "Fishing for Goldfish",
+            "edited": "2015-11-19T00:11:26.134512"
+        },
+        "pk": 28,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1895-12-28",
+            "imdbID": "tt0000029",
+            "year": "1895",
+            "imdbVotes": "1726",
+            "cast": [
+                54,
+                55,
+                56
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                53
+            ],
+            "plot": "A baby is seated at a table between its cheerful parents, Auguste and Marguerite Lumi\u00e8re. While the father is feeding the baby with a spoon, the mother is pouring coffee into her cup. The ...",
+            "created": "2015-11-19T00:11:26.134576",
+            "lastUpdated": "2015-10-14 00:06:28.180000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.9",
+            "fullPlot": "A baby is seated at a table between its cheerful parents, Auguste and Marguerite Lumi\u00e8re. While the father is feeding the baby with a spoon, the mother is pouring coffee into her cup. The father gives the baby a biscuit, which the baby grabs, but doesn't eat, although both parents encourage it. The father resumes feeding the baby with the spoon.",
+            "title": "Baby's Dinner",
+            "edited": "2015-11-19T00:11:26.134584"
+        },
+        "pk": 29,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1896-01-14",
+            "imdbID": "tt0000030",
+            "year": "1896",
+            "imdbVotes": "432",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "UK",
+            "directors": [
+                57
+            ],
+            "plot": "The sea is quite rough, and at Dover a series of heavy waves pounds against a pier and along the adjacent shoreline. The scene then shifts to a different view of flowing water, and shows a heavy current from a point along a riverbank.",
+            "created": "2015-11-19T00:11:26.134624",
+            "lastUpdated": "2015-09-16 02:17:56.960000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.3",
+            "fullPlot": "The surf pounds against a breakwater on which are visible several people standing. The wall looks to be about 20 feet above sea level and extend at least 100 feet into the water. A large wave rolls picturesquely along the wall toward the shore. Smaller waves follow. Then the scene changes to river water flowing. We see both shores: in the foreground a log and tree branch are visible; on the far shore, there appears to be a low wall with trees beyond it. The camera is stationary in both shots.",
+            "title": "Rough Sea at Dover",
+            "edited": "2015-11-19T00:11:26.134637"
+        },
+        "pk": 30,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1896-07-01",
+            "imdbID": "tt0000031",
+            "year": "1895",
+            "imdbVotes": "448",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                58
+            ],
+            "plot": "Outdoors, with a nondescript building in the background, four men stand, each holding the corner of a blanket stretched parallel to the ground. They wear the clothes of laborers. By the ...",
+            "created": "2015-11-19T00:11:26.134748",
+            "lastUpdated": "2015-10-01 07:37:14.017000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.5",
+            "fullPlot": "Outdoors, with a nondescript building in the background, four men stand, each holding the corner of a blanket stretched parallel to the ground. They wear the clothes of laborers. By the back corner on our left stands a uniformed man who seems in charge. A sixth man stands back from the blanket about six paces; he runs forward and takes a leap but stops at the edge of the blanket and is upbraided by the uniformed gent. The same thing happens a second time, but the next three times, he completes a flip, landing on his back in the middle of the blanket, and the four then boost him out toward the camera. The final time seems like it will be his last for awhile.",
+            "title": "Jumping the Blanket",
+            "edited": "2015-11-19T00:11:26.134757"
+        },
+        "pk": 31,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1895-11-01",
+            "imdbID": "tt0000032",
+            "year": "1895",
+            "imdbVotes": "187",
+            "cast": [
+                60
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "Germany",
+            "directors": [
+                59
+            ],
+            "plot": "A young woman dancer with large, flowing robes, swirls round herself quickly, making her light robe flow around her like a butterfly's wings.",
+            "created": "2015-11-19T00:11:26.134810",
+            "lastUpdated": "2015-10-06 00:59:04.053000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.4",
+            "fullPlot": "A young woman dancer with large, flowing robes, swirls round herself quickly, making her light robe flow around her like a butterfly's wings.",
+            "title": "Die Serpentint\u00e4nzerin",
+            "edited": "2015-11-19T00:11:26.134821"
+        },
+        "pk": 32,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1896-07-01",
+            "imdbID": "tt0000033",
+            "year": "1895",
+            "imdbVotes": "489",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short, Comedy",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                61
+            ],
+            "plot": "In the background is a house. In the foreground, a groom holds the reins of a sleek black horse that stands in profile. A tall man, dressed in a black uniform, demonstrates how to mount the...",
+            "created": "2015-11-19T00:11:26.134865",
+            "lastUpdated": "2015-10-14 00:06:41.767000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.6",
+            "fullPlot": "In the background is a house. In the foreground, a groom holds the reins of a sleek black horse that stands in profile. A tall man, dressed in a black uniform, demonstrates how to mount the horse then encourages and tries to assist a man in white. The man in white keeps falling, and soon it's apparent that he's an putting on a show. His pratfalls become more elaborate and stylish. The horse stands patient. The little groom laughs to see such sport. And finally, the man in white finds a comic accommodation. The story, though brief, has a beginning, middle, and end.",
+            "title": "Trick Riding",
+            "edited": "2015-11-19T00:11:26.134873"
+        },
+        "pk": 33,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000034",
+            "year": "1896",
+            "imdbVotes": "48",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                62
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.134912",
+            "lastUpdated": "2015-10-14 00:06:45.230000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "6.1",
+            "fullPlot": "",
+            "title": "Arriv\u00e9e d'un train gare de Vincennes",
+            "edited": "2015-11-19T00:11:26.134920"
+        },
+        "pk": 34,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000035",
+            "year": "1896",
+            "imdbVotes": "33",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                63
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.134957",
+            "lastUpdated": "2015-10-14 00:06:49.170000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.2",
+            "fullPlot": "",
+            "title": "Watering the Flowers",
+            "edited": "2015-11-19T00:11:26.134965"
+        },
+        "pk": 35,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1896-09-01",
+            "imdbID": "tt0000036",
+            "year": "1896",
+            "imdbVotes": "330",
+            "cast": [
+                65
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Drama, Short",
+            "rating": "NOT RATED",
+            "runtime": "",
+            "country": "USA",
+            "directors": [
+                64
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135008",
+            "lastUpdated": "2015-09-23 07:18:24.477000000",
+            "awards": "1 win.",
+            "language": "",
+            "imdbRating": "4.5",
+            "fullPlot": "",
+            "title": "Awakening of Rip",
+            "edited": "2015-11-19T00:11:26.135018"
+        },
+        "pk": 36,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000037",
+            "year": "1896",
+            "imdbVotes": "24",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                66
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135107",
+            "lastUpdated": "2015-10-14 00:06:57.717000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "4.3",
+            "fullPlot": "",
+            "title": "Sea Bathing",
+            "edited": "2015-11-19T00:11:26.135126"
+        },
+        "pk": 37,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1898-05-20",
+            "imdbID": "tt0000038",
+            "year": "1898",
+            "imdbVotes": "90",
+            "cast": [
+                68,
+                69,
+                70
+            ],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short, Sport",
+            "rating": "",
+            "runtime": "",
+            "country": "USA",
+            "directors": [
+                67
+            ],
+            "plot": "\"The Reading's [Pennsylvania] pitcher has just let a Newark [New Jersey] batsman walk to first. Our camera is stationed about twenty feet from the bag, and the satisfied grin of the runner ...",
+            "created": "2015-11-19T00:11:26.135203",
+            "lastUpdated": "2015-10-14 00:07:03.857000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "4.6",
+            "fullPlot": "\"The Reading's [Pennsylvania] pitcher has just let a Newark [New Jersey] batsman walk to first. Our camera is stationed about twenty feet from the bag, and the satisfied grin of the runner is great as he touches first and gets up on his toes for second. Next man cracks first ball pitched for a two-bagger, and races for the base with a wonderful burst of speed. First baseman just misses a put out. Very exciting. Man on the coaching line yells, and umpire runs up and makes decision. Small boy runs past back of the catcher close to the grand stand, where there is great commotion. A most excellent subject, treated brilliantly.\"",
+            "title": "The Ball Game",
+            "edited": "2015-11-19T00:11:26.135213"
+        },
+        "pk": 38,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000039",
+            "year": "1896",
+            "imdbVotes": "12",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short",
+            "rating": "",
+            "runtime": "",
+            "country": "UK",
+            "directors": [],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135253",
+            "lastUpdated": "2015-10-14 00:07:08.653000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "3.4",
+            "fullPlot": "",
+            "title": "Barnet Horse Fair",
+            "edited": "2015-11-19T00:11:26.135262"
+        },
+        "pk": 39,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000040",
+            "year": "1896",
+            "imdbVotes": "24",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                71
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135308",
+            "lastUpdated": "2015-09-26 08:10:52.227000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "4.8",
+            "fullPlot": "",
+            "title": "Barque sortant du port de Trouville",
+            "edited": "2015-11-19T00:11:26.135316"
+        },
+        "pk": 40,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1897-02-07",
+            "imdbID": "tt0000041",
+            "year": "1897",
+            "imdbVotes": "824",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short, Documentary",
+            "rating": "",
+            "runtime": "1 min",
+            "country": "France",
+            "directors": [
+                72
+            ],
+            "plot": "Wintertime in Lyons. About a dozen people, men and women, are having a snowball fight in the middle of a tree-lined street. The cyclist coming along the road becomes the target of ...",
+            "created": "2015-11-19T00:11:26.135364",
+            "lastUpdated": "2015-10-14 00:07:14.357000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "6.7",
+            "fullPlot": "Wintertime in Lyons. About a dozen people, men and women, are having a snowball fight in the middle of a tree-lined street. The cyclist coming along the road becomes the target of opportunity. He falls off his bicycle. He's not hurt, but he rides back the way he came, as the fight continues. Uh-oh. He forgot his cap in the snow.",
+            "title": "Bataille de neige",
+            "edited": "2015-11-19T00:11:26.135372"
+        },
+        "pk": 41,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000042",
+            "year": "1896",
+            "imdbVotes": "18",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                73
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135410",
+            "lastUpdated": "2015-10-14 00:07:18.823000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "4.1",
+            "fullPlot": "",
+            "title": "Bateau-mouche sur la Seine",
+            "edited": "2015-11-19T00:11:26.135419"
+        },
+        "pk": 42,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000043",
+            "year": "1896",
+            "imdbVotes": "13",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                74
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135461",
+            "lastUpdated": "2015-10-14 00:07:22.887000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "4.3",
+            "fullPlot": "",
+            "title": "Batteuse \u00e0 vapeur",
+            "edited": "2015-11-19T00:11:26.135476"
+        },
+        "pk": 43,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000044",
+            "year": "1896",
+            "imdbVotes": "14",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                75
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135526",
+            "lastUpdated": "2015-10-14 00:07:26.277000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "4.1",
+            "fullPlot": "",
+            "title": "Le bivouac",
+            "edited": "2015-11-19T00:11:26.135535"
+        },
+        "pk": 44,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000045",
+            "year": "1896",
+            "imdbVotes": "14",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                76
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135572",
+            "lastUpdated": "2015-10-11 10:13:22.563000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "3.6",
+            "fullPlot": "",
+            "title": "Les blanchisseuses",
+            "edited": "2015-11-19T00:11:26.135580"
+        },
+        "pk": 45,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000046",
+            "year": "1896",
+            "imdbVotes": "18",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                77
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135624",
+            "lastUpdated": "2015-10-14 00:07:31.473000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "4.4",
+            "fullPlot": "",
+            "title": "Bois de Boulogne",
+            "edited": "2015-11-19T00:11:26.135632"
+        },
+        "pk": 46,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000047",
+            "year": "1896",
+            "imdbVotes": "16",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                78
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135671",
+            "lastUpdated": "2015-10-14 00:07:35.303000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "4.1",
+            "fullPlot": "",
+            "title": "Boulevard des Italiens",
+            "edited": "2015-11-19T00:11:26.135679"
+        },
+        "pk": 47,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1896-01-01",
+            "imdbID": "tt0000048",
+            "year": "1896",
+            "imdbVotes": "50",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short",
+            "rating": "",
+            "runtime": "",
+            "country": "UK",
+            "directors": [
+                79
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135717",
+            "lastUpdated": "2015-10-14 00:07:39.350000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.2",
+            "fullPlot": "",
+            "title": "The Boxing Kangaroo",
+            "edited": "2015-11-19T00:11:26.135725"
+        },
+        "pk": 48,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "1896-01-01",
+            "imdbID": "tt0000049",
+            "year": "1896",
+            "imdbVotes": "18",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Short, Sport",
+            "rating": "",
+            "runtime": "",
+            "country": "UK",
+            "directors": [
+                80
+            ],
+            "plot": "Stage boxing match between Sergeant-Instructor Barrett and Sergeant Pope, with a round, interval, and knockout.",
+            "created": "2015-11-19T00:11:26.135766",
+            "lastUpdated": "2015-10-14 00:07:43.427000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "5.2",
+            "fullPlot": "Stage boxing match between Sergeant-Instructor Barrett and Sergeant Pope, with a round, interval, and knockout.",
+            "title": "Boxing Match; or, Glove Contest",
+            "edited": "2015-11-19T00:11:26.135774"
+        },
+        "pk": 49,
+        "model": "reeltalk.show"
+    },
+    {
+        "fields": {
+            "released": "",
+            "imdbID": "tt0000050",
+            "year": "1896",
+            "imdbVotes": "15",
+            "cast": [],
+            "writers": [],
+            "metacritic": "",
+            "poster": "",
+            "type": "movie",
+            "genre": "Documentary, Short",
+            "rating": "",
+            "runtime": "",
+            "country": "France",
+            "directors": [
+                81
+            ],
+            "plot": "",
+            "created": "2015-11-19T00:11:26.135812",
+            "lastUpdated": "2015-08-26 00:04:20.307000000",
+            "awards": "",
+            "language": "",
+            "imdbRating": "4.2",
+            "fullPlot": "",
+            "title": "B\u00e9b\u00e9 et fillettes",
+            "edited": "2015-11-19T00:11:26.135820"
+        },
+        "pk": 50,
+        "model": "reeltalk.show"
     }
 ]

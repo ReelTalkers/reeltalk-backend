@@ -1,0 +1,388 @@
+[
+    {
+        "fields": {
+            "title": "Burnt",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Drama",
+            "director_id": 2,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/xfHtVKzKXwR1NRRHzymgHGDtvQI=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/16/11201614_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/mC0pf1bydVaoDypsqwDkNn4NJJm.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-12-12T11:26:24.656Z",
+            "edited": "2014-12-15T13:07:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "title": "Scouts Guide",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Comedy",
+            "director_id": 1,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/0IezF1ZHJ6OQq7toBLOibBJzTEw=/180x240/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/02/11200260_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/3wHxtemithpFQiB7ffa50ZKI6bz.jpg",
+            "background_color": "rgb(107, 78, 90)",
+            "text_color": "rgb(205, 165, 148)",
+            "detail_color": "rgb(147, 167, 164)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-12-12T11:26:24.657Z",
+            "edited": "2014-12-15T14:07:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "title": "The Wonders",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Action",
+            "director_id": 2,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/djFct1UfNF8lQVLMuKPt-WgWDSc=/180x263/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/21/11202157_ori.jpg",
+            "banner": "http://www.goldposter.com/wp-content/uploads/2015/10/Le-meraviglie_poster_goldposter_com_2.jpg",
+            "background_color": "rgb(32, 163, 250)",
+            "text_color": "rgb(216, 198, 114)",
+            "detail_color": "rgb(117, 89, 54)",
+            "actors": [
+                1,
+                2,
+                3
+            ],
+            "created": "2014-12-13T11:26:24.656Z",
+            "edited": "2014-12-16T13:07:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "title": "Our Brand is Crisis",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Action",
+            "director_id": 1,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/Qv1BOsJoqQmduDItpZJW6rMgx7E=/180x240/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/23/11202343_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/jLp0GFoptqvPHXqf8uPXAXTtxUp.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3
+            ],
+            "created": "2014-11-12T11:26:24.656Z",
+            "edited": "2014-12-15T13:17:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "title": "Oklahoma!",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Comedy",
+            "director_id": 3,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/zlgB9LonVfUYOOm3TV1OutA95v8=/179x257/dkpu1ddg7pbsk.cloudfront.net/movie/11/16/49/11164955_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/cQJ03k3rXBSYsH8Oz4JyCCPnf0w.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-10-12T11:26:24.656Z",
+            "edited": "2014-11-15T13:07:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "title": "The Martian",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Drama",
+            "director_id": 1,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/rT6Zrdsk5jerxadzoklaO75zdNo=/180x266/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/23/11202355_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/AjbENYG3b8lhYSkdrWwlhVLRPKR.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-10-12T12:26:24.656Z",
+            "edited": "2014-12-15T13:27:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "title": "Goosebumps",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Comedy",
+            "director_id": 2,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/iJ6a8SHiJYi0GrImnZNFbxVx_-Y=/180x240/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/31/11193185_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/lNPMamUICDTZT6Njg57A6z9BEo3.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-11-14T11:26:24.656Z",
+            "edited": "2014-12-15T13:07:43.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "title": "Bridge of Spies",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Drama",
+            "director_id": 1,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/tAquknRxX7pynS1DZaBpGTHyRyA=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/14/11191456_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/AcuW0ITY1WElLzIoiA6PpPCsGwm.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-12-15T11:26:24.646Z",
+            "edited": "2014-12-16T13:37:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "title": "Hotel Translyvania",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Comedy",
+            "director_id": 1,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/-dfvNhkq-a0WRawTg6SofCRl4Fo=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/15/11191564_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/t4PLWexbe4wbNydCOBv18cYexup.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-12-12T11:26:25.656Z",
+            "edited": "2014-12-15T13:18:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "title": "Steve Jobs",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Drama",
+            "director_id": 3,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/38yI97kbunRUBKc9EzPzfjJCEBU=/171x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/16/11201611_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/7SUaf2UgoY0ZRGbQtRlfDkLDBCb.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-12-12T11:27:34.656Z",
+            "edited": "2014-12-14T13:07:43.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "title": "Crimson Peak",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Drama",
+            "director_id": 1,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/1dGvwnevgBvYDAGusvjG-0DuOyA=/171x270/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/00/11190023_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/pCj8zem1NDAODdtvha9WFEB6iWR.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-12-13T11:26:24.656Z",
+            "edited": "2014-12-16T13:07:33.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "title": "The Intern",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Comedy",
+            "director_id": 1,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/obh-_CU9WsxHHXwF_sN_VevEOg8=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/20/11202098_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/vQ7oVX2j7BnMDYyzuFeG1epqvGb.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-12-13T11:26:24.626Z",
+            "edited": "2014-12-16T13:07:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "title": "Spectre",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Action",
+            "director_id": 1,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/HGsEg-bnDHUKvCnt1TvVY-L9TNw=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/33/11203374_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/zHx5KaKaQdZZnEUgtjcIdNcB3ka.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2
+            ],
+            "created": "2014-12-14T11:26:24.656Z",
+            "edited": "2014-12-18T13:47:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "title": "The Peanuts Movie",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Comedy",
+            "director_id": 1,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/u18p3DSqVcnK6RedN0_C6lY2lvA=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/19/14/11191451_ori.jpg",
+            "banner": "https://image.tmdb.org/t/p/original/zF6WpDC7fYTx2pqUYUet06buYmB.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-12-13T11:27:24.656Z",
+            "edited": "2014-12-19T13:07:53.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "title": "Brooklyn",
+            "year": "2015",
+            "runtime": "2 hr",
+            "mpaa_rating": "F (for fun)",
+            "genre": "Action",
+            "director_id": 1,
+            "description": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+            "poster": "http://resizing.flixster.com/TP0sHdM50GAs7c6QLmuBdJ_eIoQ=/180x267/dkpu1ddg7pbsk.cloudfront.net/movie/11/20/19/11201971_ori.jpg",
+            "banner": "http://image.tmdb.org/t/p/original/yeA0eyNUmMlvXPkm9AHQfzxOwPy.jpg",
+            "background_color": "rgba(208, 206, 184, 1)",
+            "text_color": "rgb(57, 35, 29)",
+            "detail_color": "rgb(169, 116, 56)",
+            "actors": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "created": "2014-12-18T11:26:24.656Z",
+            "edited": "2014-12-20T13:07:52.386Z"
+        },
+        "model": "reeltalk.show",
+        "pk": 15
+    }
+]
