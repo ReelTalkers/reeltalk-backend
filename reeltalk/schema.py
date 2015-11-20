@@ -7,10 +7,12 @@ from graphql.core.type import (
     GraphQLInt,
     GraphQLFloat,
     GraphQLBoolean
+    GraphQLList,
 )
 import re
 
 from . import models
+from .filter_shows import get_show_recommendations_via_group
 
 schema = graphene.Schema(name='ReelTalk Relay Schema')
 
@@ -217,6 +219,10 @@ class Query(graphene.ObjectType):
     group = relay.NodeField(Group)
     node = relay.NodeField()
     viewer = graphene.Field('self')
+    recommend_shows = DjangoConnectionField(
+        Show,
+        user_ids=GraphQLArgument(GraphQLList(GraphQLString))
+    )
 
     @resolve_only_args
     def resolve_all_curated_lists(self, **kwargs):
@@ -247,6 +253,15 @@ class Query(graphene.ObjectType):
     def resolve_all_user_profiles(self, **kwargs):
         model_filters = extract_model_filters(models.UserProfile, kwargs)
         return models.UserProfile.objects.filter(**model_filters)
+
+    @resolve_only_args
+    def resolve_recommend_shows(self, user_ids=None, **kwargs):
+        if user_ids:
+            group = models.UserProfile.objects.filter(id__in=user_ids)
+            all_users = models.UserProfile.objects.all() # TODO: eventually query user's friends
+            return get_show_recommendations_via_group(group, all_users)
+        else:
+            return models.Show.objects.all()
 
     def resolve_viewer(self, *args, **kwargs):
         return self
