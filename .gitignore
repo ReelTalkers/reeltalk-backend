@@ -62,3 +62,6 @@ schema.json
 
 omdb*
 *.zip
+
+*.ipynb
+.ipynb_checkpoints/*

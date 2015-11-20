@@ -160,6 +160,32 @@ def extract_model_filters(model, all_fields):
     return model_filters
 
 
+class ReviewShow(relay.ClientIDMutation):
+    class Input:
+        score = graphene.IntField(required=True)
+        show_id = graphene.StringField(required=True)
+        user_profile_id = graphene.StringField(required=True)
+
+    review = graphene.Field(Review)
+    show = graphene.Field(Show)
+    user_profile = graphene.Field(UserProfile)
+
+    @classmethod
+    def mutate_and_get_payload(cls, input, info):
+        score = input.get('score')
+        show_id = input.get('show_id')
+        user_profile_id = input.get('user_profile_id')
+
+        show = models.Show.objects.get(id=show_id)
+        user_profile = models.UserProfile.objects.get(id=user_profile_id)
+        review, created = models.Review.objects.update_or_create(
+            user_profile=user_profile,
+            show=show,
+            defaults={'score': score}
+        )
+        return ReviewShow(review=review, show=show, user_profile=user_profile)
+
+
 class Query(graphene.ObjectType):
     all_shows = DjangoConnectionField(
         Show,
@@ -225,8 +251,11 @@ class Query(graphene.ObjectType):
     def resolve_viewer(self, *args, **kwargs):
         return self
 
+class Mutation(graphene.ObjectType):
+    review_show = graphene.Field(ReviewShow)
 
 schema.query = Query
+schema.mutation = Mutation
 
 import json
 
