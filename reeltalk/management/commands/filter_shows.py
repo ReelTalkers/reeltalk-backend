@@ -6,7 +6,7 @@ class Command(BaseCommand):
         userlist = UserProfile.objects.all() # list
 
         def findSimilarUsers( currentUser, userList):
-            similarityDict = {}
+            similarityList = []
             currentUserReviews = Review.objects.filter(user = currentUser)
             for u in userList:
                 if(u.id != currentUser.id):
@@ -18,8 +18,8 @@ class Command(BaseCommand):
                             totalDifference += abs(currentUserReviews.get(show__id = r.show.id).score - r.score)
                             matches+=1
                     if(matches>0):
-                        print(totalDifference/matches)
-                        similarityDict[u.id] = 2 - totalDifference / matches
-            return similarityDict
+                        similarityList.append((u.id, 2 - totalDifference / matches))
+            similarityList = [user[1] for user in similarityList if user[1] > 0]
+            return similarityList
 
         print(findSimilarUsers(userlist.first(), userlist))
