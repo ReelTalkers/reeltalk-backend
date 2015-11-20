@@ -1,13 +1,14 @@
 import graphene
 from graphene import resolve_only_args, relay
 from graphene.contrib.django import DjangoNode, DjangoConnectionField
+from graphql_relay.node.node import from_global_id
 from graphql.core.type import (
     GraphQLArgument,
     GraphQLString,
     GraphQLInt,
     GraphQLFloat,
-    GraphQLBoolean
-    GraphQLList,
+    GraphQLBoolean,
+    GraphQLList
 )
 import re
 
@@ -257,7 +258,8 @@ class Query(graphene.ObjectType):
     @resolve_only_args
     def resolve_recommend_shows(self, user_ids=None, **kwargs):
         if user_ids:
-            group = models.UserProfile.objects.filter(id__in=user_ids)
+            user_profile_ids = [from_global_id(g_id).id for g_id in user_ids]
+            group = models.UserProfile.objects.filter(id__in=user_profile_ids)
             all_users = models.UserProfile.objects.all() # TODO: eventually query user's friends
             return get_show_recommendations_via_group(group, all_users)
         else:
