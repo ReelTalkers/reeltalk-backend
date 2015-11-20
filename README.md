@@ -12,13 +12,7 @@ You'll get an error running this but that's fine
 
     python manage.py migrate
 
-Now, create at least two users (temporary). For example:
-
-    python manage.py createsuperuser
-
-And finally, run migrate again
-
-    python manage.py migrate
+    python manage.py loaddata data_dump
 
 To run the backend:
 
