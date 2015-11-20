@@ -51,6 +51,7 @@ class Command(BaseCommand):
                         possibleMovieDict[m] = totalScore
                     else:
                         possibleMovieDict[m] = score
+            recommendedMovies = { key:recommendedMovies[key] for key in recommendedMovies.keys() if recommendedMovies[key]>0}
             return possibleMovieDict
 
         def hasNotSeen(group, showId):
