@@ -14,7 +14,8 @@ class Command(BaseCommand):
                 totalDifference = 0
                 reviews = Review.objects.filter(user=u)
                 for r in reviews:
-                    if currentUserReviews.filter(show__id=r.show.id).exists:
+                    if currentUserReviews.filter(show__id=r.show.id).exists():
+                        print(currentUserReviews.get(show__id=r.show.id))
                         totalDifference += abs(currentUserReviews.get(show__id = r.show.id).score - r.score)
                         matches+=1
                         if(matches>0):
