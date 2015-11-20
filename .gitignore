@@ -65,3 +65,4 @@ omdb*
 
 *.ipynb
 .ipynb_checkpoints/*
+venv
