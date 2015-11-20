@@ -28,14 +28,13 @@ class UserProfile(DateTimeModel):
 class Person(DateTimeModel):
     """ Profile of someone who has been associated with shows """
 
-    first_name = models.CharField(max_length=100)
-    last_name = models.CharField(max_length=100)
+    full_name = models.CharField(max_length=200)
 
     class Meta:
         verbose_name_plural = "people"
 
     def __str__(self):
-        return self.first_name + ' ' + self.last_name
+        return self.full_name
 
 
 class Show(DateTimeModel):
@@ -43,11 +42,10 @@ class Show(DateTimeModel):
 
     imdb_id = models.CharField(max_length=50, unique=True)
     title = models.CharField(max_length=100)
-    rating = models.CharField(max_length=20)
-    released = models.CharField(max_length=20)
-    plot = models.CharField(max_length=1000)
-    full_plot = models.TextField()
-    genre = models.CharField(max_length=50)
+    released = models.CharField(max_length=30, null=True, blank=True)
+    plot = models.CharField(max_length=1000, null=True, blank=True)
+    full_plot = models.TextField(null=True, blank=True)
+    genre = models.CharField(max_length=50, null=True, blank=True)
     directors = models.ManyToManyField(
         Person,
         related_name="directions",
@@ -58,26 +56,26 @@ class Show(DateTimeModel):
         related_name="scripts",
         blank=True
     )
-    banner = models.CharField(max_length=500)
-    poster = models.CharField(max_length=500)
+    banner = models.CharField(max_length=500, null=True, blank=True)
+    poster = models.CharField(max_length=500, null=True, blank=True)
     background_color = models.CharField(max_length=10, default="#ffffff")
     text_color = models.CharField(max_length=10, default="#000000")
     detail_color = models.CharField(max_length=10, default="#ffffff")
-    year = models.CharField(max_length=4)
-    mpaa_rating = models.CharField(max_length=20)
-    runtime = models.CharField(max_length=50)
+    year = models.CharField(max_length=4, null=True, blank=True)
+    rating = models.CharField(max_length=20, null=True, blank=True)
+    runtime = models.CharField(max_length=50, null=True, blank=True)
     cast = models.ManyToManyField(
         Person,
         related_name="portfolio",
         blank=True
     )
-    metacritic = models.SmallPositiveIntegerField()
-    imdbRating = models.DecimalField()
-    imdbVotes = models.PositiveIntegerField()
-    language = models.CharField(max_length=50)
-    country = models.CharField(max_length=50)
-    awards = models.CharField(max_length=200)
-    lastUpdated = models.TimeStampField()
+    metacritic = models.PositiveSmallIntegerField(null=True, blank=True)
+    imdb_rating = models.DecimalField(max_digits=3, decimal_places=1, null=True, blank=True)
+    imdb_votes = models.PositiveIntegerField(null=True, blank=True)
+    language = models.CharField(max_length=50, null=True, blank=True)
+    country = models.CharField(max_length=50, null=True, blank=True)
+    awards = models.CharField(max_length=200, null=True, blank=True)
+    last_updated = models.DateTimeField()
     type = models.CharField(max_length=20)
 
     def __str__(self):
