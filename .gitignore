@@ -62,3 +62,4 @@ schema.json
 
 omdb*
 *.zip
+venv

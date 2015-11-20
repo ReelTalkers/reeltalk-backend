@@ -7,15 +7,16 @@ from .models import (
     Show,
     Review,
     User,
+    UserProfile,
     Group
 )
 
-classes = [Show, Review, Group]
+classes = [Show, UserProfile, Review, Group]
 
 
 class ModelAdmin(admin.ModelAdmin):
     def save_model(self, request, obj, form, change):
-        if not request.user.is_superuser or True:
+        if True:
             messages.error(request, "Only superusers can change models")
             return False
         return super(ModelAdmin, self).save_model(request, obj, form, change)

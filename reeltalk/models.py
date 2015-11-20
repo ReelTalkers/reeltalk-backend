@@ -19,6 +19,8 @@ class UserProfile(DateTimeModel):
 
     def get_full_name(self):
         full_name = self.user.first_name + ' ' + self.user.last_name
+        if full_name == ' ':
+            return self.user.username
         return full_name if len(full_name) > 0 else self.user.username
 
     def __str__(self):
