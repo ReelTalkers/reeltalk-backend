@@ -8,10 +8,11 @@ from .models import (
     Review,
     User,
     UserProfile,
+    CuratedList,
     Group
 )
 
-classes = [Show, UserProfile, Review, Group]
+classes = [Show, UserProfile, CuratedList, Review, Group]
 
 
 class ModelAdmin(admin.ModelAdmin):
