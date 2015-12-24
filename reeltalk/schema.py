@@ -179,10 +179,10 @@ class ReviewShow(relay.ClientIDMutation):
         show_id = input.get('show_id')
         user_profile_id = input.get('user_profile_id')
 
-        show = models.Show.objects.get(id=show_id)
-        user_profile = models.UserProfile.objects.get(id=user_profile_id)
+        show = models.Show.objects.get(id=from_global_id(show_id).id)
+        user_profile = models.UserProfile.objects.get(id=from_global_id(user_profile_id).id)
         review, created = models.Review.objects.update_or_create(
-            user_profile=user_profile,
+            user=user_profile,
             show=show,
             defaults={'score': score}
         )
