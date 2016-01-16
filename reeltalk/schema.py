@@ -37,14 +37,24 @@ class Show(DjangoNode):
     reviews = relay.ConnectionField(
         Review, description='Reviews this show has received'
     )
+    review = graphene.Field(Review, user_profile_id=GraphQLArgument(GraphQLString))
 
     @resolve_only_args
     def resolve_reviews(self, **args):
         return self.instance.review_set.all()
 
+    @resolve_only_args
+    def resolve_review(self, user_profile_id=None, **args):
+        if not user_profile_id:
+            return None
+        user_profile = models.UserProfile.objects.get(
+            id=from_global_id(user_profile_id).id
+        )
+        return self.review_set.filter(user=user_profile).first()
+
     class Meta:
         model = models.Show
-        exclude_fields = ('created', 'edited', 'review')
+        exclude_fields = ('created', 'edited')
 
     connection_type = Connection
 
@@ -114,7 +124,7 @@ class UserProfile(DjangoNode):
 
     class Meta:
         model = models.UserProfile
-        exclude_fields = ('created', 'edited', 'curatedlist', 'group', 'review')
+        exclude_fields = ('created', 'edited', 'curatedlist', 'group')
 
 
 def get_filterable_fields(model, accept_relations=True):
@@ -180,12 +190,15 @@ class ReviewShow(relay.ClientIDMutation):
         user_profile_id = input.get('user_profile_id')
 
         show = models.Show.objects.get(id=from_global_id(show_id).id)
-        user_profile = models.UserProfile.objects.get(id=from_global_id(user_profile_id).id)
+        user_profile = models.UserProfile.objects.get(
+            id=from_global_id(user_profile_id).id
+        )
         review, created = models.Review.objects.update_or_create(
             user=user_profile,
             show=show,
             defaults={'score': score}
         )
+        print(review)
         return ReviewShow(review=review, show=show, user_profile=user_profile)
 
 
