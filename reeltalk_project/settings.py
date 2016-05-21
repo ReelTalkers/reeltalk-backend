@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_graphiql',
+    'corsheaders',
     'reeltalk',
     'django_extensions',
 )
@@ -48,9 +49,12 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
 )
+
+CORS_ORIGIN_WHITELIST = os.environ.get('CORS_WHITELIST', '').split(',')
 
 ROOT_URLCONF = 'reeltalk_project.urls'
 

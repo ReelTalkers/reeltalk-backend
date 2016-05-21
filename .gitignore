@@ -66,3 +66,4 @@ omdb*
 *.ipynb
 .ipynb_checkpoints/*
 venv
+.env

@@ -19,4 +19,11 @@ To run the backend:
     python manage.py runserver
 
 
+Make it available to CORS:
+
+`export CORS_WHITELIST="localhost:<other_port_num>,localhost:<again>"`
+
+And run it again
+
+
 Visit [/graphiql](http://localhost:8000/graphiql) for an interactive playground and documentation page.

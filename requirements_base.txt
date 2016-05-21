@@ -3,6 +3,7 @@ backports-abc==0.4
 blinker==1.4
 decorator==4.0.4
 Django==1.8.5
+django-cors-headers==1.1.0
 django-extensions==1.5.9
 django-graphiql==0.3.1.7
 gnureadline==6.3.3
